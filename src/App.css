@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  background: #fb5607;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  height: 100vh;
 }
 
 .App-logo {
@@ -8,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,4 +35,54 @@
 
 .small {
   font-size: 0.75rem;
+}
+
+.question {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.image {
+  width: 60vw;
+  height: 60vw;
+  border-radius: 30px;
+  display: inline-block;
+  object-fit: cover;
+  margin: 10px 0;
+}
+
+.answer {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+  height: 4rem;
+  display: block;
+}
+
+.answer-button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 100px;
+  display: block;
+  width: 60vw;
+  padding: 20px;
+  background: #ffbe0b;
+  color: #FFF;
+  border: none;
+  outline: none;
+}
+
+.next-button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 100px;
+  display: block;
+  width: 60vw;
+  padding: 20px;
+  background: #3a86ff;
+  color: #FFF;
+  border: none;
+  outline: none;
 }

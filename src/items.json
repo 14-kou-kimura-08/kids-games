@@ -1,0 +1,18 @@
+[
+    {
+        "name": "りんご",
+        "imageUrl": "/images/apple.jpeg"
+    },
+    {
+        "name": "ぶどう",
+        "imageUrl": "/images/grapes.jpeg"
+    },
+    {
+        "name": "バナナ",
+        "imageUrl": "/images/banana.jpeg"
+    },
+    {
+        "name": "いちご",
+        "imageUrl": "/images/strawberry.jpeg"
+    }
+]
