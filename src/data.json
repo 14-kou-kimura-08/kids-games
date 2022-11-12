@@ -14,5 +14,85 @@
     {
         "name": "いちご",
         "imageUrl": "/images/strawberry.jpeg"
+    },
+    {
+        "name": "にんじん",
+        "imageUrl": "/images/carrots.jpeg"
+    },
+    {
+        "name": "たまねぎ",
+        "imageUrl": "/images/onion.jpeg"
+    },
+    {
+        "name": "かぼちゃ",
+        "imageUrl": "/images/pumpkin.jpeg"
+    },
+    {
+        "name": "みかん",
+        "imageUrl": "/images/orange.jpeg"
+    },
+    {
+        "name": "かき",
+        "imageUrl": "/images/kaki.jpeg"
+    },
+    {
+        "name": "ぶた",
+        "imageUrl": "/images/pork.jpeg"
+    },
+    {
+        "name": "うし",
+        "imageUrl": "/images/cow.jpeg"
+    },
+    {
+        "name": "にわとり",
+        "imageUrl": "/images/chicken.jpeg"
+    },
+    {
+        "name": "ひつじ",
+        "imageUrl": "/images/sheep.jpeg"
+    },
+    {
+        "name": "かに",
+        "imageUrl": "/images/crab.jpeg"
+    },
+    {
+        "name": "えび",
+        "imageUrl": "/images/shrimp.jpeg"
+    },
+    {
+        "name": "いるか",
+        "imageUrl": "/images/beluga.jpeg"
+    },
+    {
+        "name": "かめ",
+        "imageUrl": "/images/turtle.jpeg"
+    },
+    {
+        "name": "ぞう",
+        "imageUrl": "/images/elephant.jpeg"
+    },
+    {
+        "name": "らいおん",
+        "imageUrl": "/images/lion.jpeg"
+    },
+    {
+        "name": "えほん",
+        "imageUrl": "/images/ehon.jpeg"
+    },
+    {
+        "name": "サンタクロース",
+        "imageUrl": "/images/santa.jpeg"
+    },
+    {
+        "name": "ゆきだるま",
+        "imageUrl": "/images/snowman.jpeg"
+    },
+    {
+        "name": "くつした",
+        "imageUrl": "/images/socks.jpeg"
+    },
+    {
+        "name": "ケーキ",
+        "imageUrl": "/images/cake.jpeg"
     }
 ]
