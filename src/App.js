@@ -1,16 +1,10 @@
 import './App.css';
 import { useState } from 'react';
-import items from './items.json';
-
+import items from './Items';
 
 function App() {
   const [count, setCount] = useState(0);
   const [isDisplay, setIsDisplay] = useState(false);
-
-  // NOTE: 重み付けをしてソートすることでランダムに並べ替えている
-  items = items.map(function(item){return [item, Math.random()]})
-    .sort(function(previousItem, nextItem){return previousItem[1] - nextItem[1]})
-    .map(function(item){return item[0]});
 
   function showAnswer() {
     setIsDisplay(true);
