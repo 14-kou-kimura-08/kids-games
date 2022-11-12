@@ -5,7 +5,6 @@ import items from './Items';
 function App() {
   const [count, setCount] = useState(0);
   const [isDisplay, setIsDisplay] = useState(false);
-  const [item, setItem] = useState(items[0]);
 
   function showAnswer() {
     setIsDisplay(true);
@@ -16,15 +15,11 @@ function App() {
   }
 
   function nextItem() {
-    let nextCount;
-
     if (items.length - 1 === count) {
-      nextCount = 0;
+      setCount(0);
     } else {
-      nextCount = count + 1;
+      setCount(count + 1);
     }
-    setCount(nextCount);
-    setItem(items[nextCount]);
     hideAnswer();
   }
 
@@ -47,10 +42,15 @@ function App() {
   return (
     <div className="App">
       <div className="question">これ、な〜んだ？</div>
-      <img src={item.imageUrl} className="image" alt={item.name} />
-      <div className="answer">
-        {isDisplay && item.name}
-      </div>
+      {items.map((item, index) => {
+        return <div key={index} style={{ display: index === count ? 'block' : 'none'}}>
+        <img src={item.imageUrl} className="image" alt={item.name} />
+          <div className="answer">
+            {isDisplay && item.name}
+          </div>
+        </div>
+      })}
+      
       <Button />
     </div>
   );
